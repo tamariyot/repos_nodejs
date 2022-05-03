@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>openUser</title>
+    <script src="JavaScript.js"></script>
+</head>
+<body onload="load()">
+    <div>
+        <h1 id="welcome">welcome to </h1>
+        <!--hidden="hidden"-->
+        <p>מייל</p>
+        <input id="Email" type="text" />
+        <p>סיסמא</p>
+        <input id="Password" type="password" />
+        <p>שם פרטי</p>
+        <input id="FName" type="text" />
+        <p>שם משפחה</p>
+        <input id="Lname" type="text" />
+        <button onclick="update()">עדכון</button><br />
+        <button onclick="goHome()">לדף הבית</button>
+        <button onclick="getAllOrder()">להצגת הזמנות שלי</button>
+        <h1 id="myOrders"> </h1>
+    </div>
+</body>
+</html>
